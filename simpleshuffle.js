@@ -1,7 +1,7 @@
 function simpleShuffle (deck, deckSize)
 { 
     for(i=0;i<deckSize;i++){
-	var j = parseInt(Math.random() * 1000) + 1;
+	var j = parseInt(Math.random() * 100000) + 1;
 	j = j%deckSize
 
 	var card = deck[i];
